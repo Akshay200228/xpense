@@ -18,18 +18,19 @@ import Pricing from './components/Pricing';
 import Testimonials from './components/Testimonials';
 // import Cta from './components/Cta';
 import Footer from './components/Footer';
+import Overview from './components/Overview';
 
 const App = () => {
   // initialize aos
   Aos.init({
-    duration: 1800,
+    duration: 1500,
     offset: 100,
   });
   return (
     <div className='overflow-hidden'>
       <Header />
       <Hero />
-      {/* <Overview /> */}
+      <Overview />
       {/* <Brands /> */}
       <Feature1 />
       <Feature2 />

@@ -35,9 +35,8 @@ const Hero = () => {
             >
               <button
                 onClick={() => window.open("https://expense-tracker-e296bd.netlify.app")}
-               className='flex items-center justify-center btn btn-md lg:btn-lg btn-accent lg:gap-x-4'>
+                className='flex items-center justify-center btn btn-md lg:btn-lg btn-accent lg:gap-x-4'>
                 {btnText}
-                {/* <link rel="stylesheet" href="https://expense-tracker-e296bd.netlify.app/" /> */}
                 <HiOutlineChevronDown />
               </button>
               <span className='text-light lg:lead lg:mb-0'>{compText}</span>
